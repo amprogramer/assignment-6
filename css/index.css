@@ -1,0 +1,155 @@
+html {
+    scroll-padding: 68px;
+    scroll-behavior: smooth;
+}
+
+.mynav.bg-black {
+    --bs-bg-opacity: 0.9;
+}
+
+.container .navbar-brand {
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imgi_12_hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.myname {
+    font-size: 72px;
+}
+
+.nav-links ul li a::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    width: 50%;
+    height: 2px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.nav-links ul li a:hover::after{
+        transform: scaleX(1);
+
+}
+
+.nav-links ul li a.active::after {
+    transform: scaleX(1);
+}
+
+.about {
+    padding-block: 3.75rem;
+}
+
+.progress {
+    background-color: #cde1f8;
+    height: 0.7rem;
+}
+
+.about-me::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 18%;
+    height: 3px;
+    background: #0D6EFD;
+}
+
+.mdata{
+    font-size: 1.1rem;
+}
+
+.head-h{
+    font-size: 48px;
+}
+
+.dash::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background: #0D6EFD;
+    transform: translate(-25px);
+}
+
+#services .s-icon{
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+    border-width: 10px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.services-cards .s-card:hover .s-icon{
+    border-color: #cde1f8 !important;
+    background-color: rgb(13, 110, 253) !important;
+    color: white !important;
+}
+
+.numbers{
+    background-image: linear-gradient(rgba(13, 110, 253, 0.75), rgba(13, 110, 253, 0.75)), url(../images/imgi_13_counters-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.n-icon{
+    width: 80px;
+    height: 80px;
+    border-width: 8px !important;
+}
+
+.port-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.card-text{
+    font-size: 12.8px;
+}
+
+.mycarousel{
+    background-image: linear-gradient(rgba(13, 110, 253, 0.75), rgba(13, 110, 253, 0.75)), url(../images/imgi_14_overlay-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.car-img{
+    width: 150px;
+    height: 150px;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+
+.port-content .card img{
+    transition: all 0.3s ease-in-out;
+}
+
+.port-content .card:hover img{
+    transform: scale(1.1);
+}
+
+.pin img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
