@@ -81,7 +81,23 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                DROP DOWN
+                DROP DOWN<i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu rounded-0">
+                <li>
+                  <a class="dropdown-item py-2 px-3" href="#">Drop Down 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2 px-3" href="#">
+                                <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white fs-6 px-3 fw-semibold position-relative"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Deep Drop Down
               </a>
               <ul class="dropdown-menu rounded-0">
                 <li>
@@ -89,6 +105,19 @@
                 </li>
                 <li>
                   <a class="dropdown-item py-2 px-3" href="#">Deep Drop Down</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2 px-3" href="#">Drop Down 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2 px-3" href="#">Drop Down 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-2 px-3" href="#">Drop Down 4</a>
+                </li>
+              </ul>
+            </li>
+                  </a>
                 </li>
                 <li>
                   <a class="dropdown-item py-2 px-3" href="#">Drop Down 2</a>
@@ -118,7 +147,7 @@
     <div id="home" class="hero w-100 min-vh-100 d-flex align-items-center">
       <div class="container d-flex justify-content-center text-center">
         <div class="hero-content">
-          <h2 class="myname text-white fw-semibold mb-4">
+          <h2 class="myname text-white fw-semibold mb-sm-4">
             I am Morgan Freeman
           </h2>
           <span class="auto-type fs-1 text-white fw-semibold"></span>
@@ -129,17 +158,17 @@
 
     <!-- about -->
     <div class="about bg-body-tertiary" id="about">
-      <div class="container bg-white shadow d-flex p-5 gap-4">
+      <div class="container bg-white shadow d-flex flex-sm-column flex-lg-row flex-lg-nowrap flex-sm-wrap p-5 gap-4">
         <div class="about-left w-50">
           <div class="my-info row mb-2 p-2 justify-content-between">
-            <div class="pic col-4">
+            <div class="pic col-md-4">
               <img
                 src="./images/imgi_1_testimonial-2.jpg"
                 class="w-100 d-block rounded-2"
                 alt="mypic"
               />
             </div>
-            <div class="my-data col-6 py-3">
+            <div class="my-data col-md-6 py-3">
               <p class="mb-3">
                 <span class="fw-semibold mdata">Name:</span> Morgan Freeman
               </p>
@@ -237,7 +266,7 @@
           <div class="dash position-relative"></div>
         </div>
         <div class="services-cards row py-5 g-4 gy-5">
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
                 <i class="fa-solid fa-briefcase"></i>       
@@ -250,7 +279,7 @@
               </p>
             </div>
           </div>
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
 <i class="fa-solid fa-list-check"></i>        
@@ -263,7 +292,7 @@
               </p>
             </div>
           </div>
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
 <i class="fa-solid fa-chart-simple"></i>      
@@ -276,7 +305,7 @@
               </p>
             </div>
           </div>
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
 <i class="fa-solid fa-binoculars"></i>    
@@ -289,7 +318,7 @@
               </p>
             </div>
           </div>
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
 <i class="fa-solid fa-sun"></i>        
@@ -302,7 +331,7 @@
               </p>
             </div>
           </div>
-          <div class="s-card col-4">
+          <div class="s-card col-md-4">
             <div class="s-card-content d-flex flex-column justify-content-center align-items-center py-4 px-3 text-center bg-white border-none shadow-sm rounded-4">
               <div class="s-icon d-flex justify-content-center align-items-center mb-3 border border-primary rounded-circle bg-white">
 <i class="fa-solid fa-calendar-days"></i>       
@@ -323,7 +352,7 @@
     <div class="numbers py-5 mb-4">
       <div class="container py-5">
           <div class="numbers-cards row g-4 py-4">
-          <div class="n-card col-3">
+          <div class="n-card col-sm-3">
             <div class="n-card-content d-flex flex-column justify-content-center align-items-center py-3 text-center border-none">
               <div class="n-icon d-flex justify-content-center align-items-center fs-3 border rounded-circle border-light-subtle text-white mb-2">
                 <i class="fa-solid fa-check"></i>
@@ -334,7 +363,7 @@
               </p>
             </div>
           </div>
-          <div class="n-card col-3">
+          <div class="n-card col-sm-3">
             <div class="n-card-content d-flex flex-column justify-content-center align-items-center py-3 text-center border-none">
               <div class="n-icon d-flex justify-content-center align-items-center fs-3 border rounded-circle border-light-subtle text-white mb-2">
                 <i class="fa-solid fa-newspaper"></i>
@@ -345,7 +374,7 @@
               </p>
             </div>
           </div>
-          <div class="n-card col-3">
+          <div class="n-card col-sm-3">
             <div class="n-card-content d-flex flex-column justify-content-center align-items-center py-3 text-center border-none">
               <div class="n-icon d-flex justify-content-center align-items-center fs-3 border rounded-circle border-light-subtle text-white mb-2">
                 <i class="fa-solid fa-users"></i>              
@@ -356,7 +385,7 @@
               </p>
             </div>
           </div>
-          <div class="n-card col-3">
+          <div class="n-card col-sm-3">
             <div class="n-card-content d-flex flex-column justify-content-center align-items-center py-3 text-center border-none">
               <div class="n-icon d-flex justify-content-center align-items-center fs-3 border rounded-circle border-light-subtle text-white mb-2">
                 <i class="fa-solid fa-medal"></i>
@@ -515,7 +544,7 @@
     <!-- carousel-end -->
 
     <!-- blog -->
-        <div class="blog bg-body-tertiary" id="blog">
+        <div class="blog bg-body-tertiary pb-5" id="blog">
           <div class="container">
             <div class="sec-head text-center pt-5">
           <h2 class="head-h fw-bold">BLOG</h2>
@@ -527,22 +556,28 @@
             <div class="blog-cont py-5">
               <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100">
-      <img src="./images/imgi_9_post-1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">See more ideas about Travel</h5>
+    <div class="card h-100 shadow-sm">
+    
+        <a href="#">  <img src="./images/imgi_9_post-1.jpg" class="card-img-top" alt="..."></a>
+
+      <div class="card-body position-relative">
+        
+        <div class="cartopic w-25 py-1 bg-primary text-center border border-0 rounded-3 text-white position-absolute">TRAVEL</div>
+
+        <a href="#" class="text-decoration-none text-black"><h5 class="card-title">See more ideas about Travel</h5></a>
+
         <p class="card-text fs-6 text-secondary">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
       </div>
-      <div class="card-footer">
+      <div class="card-footer py-0">
         <small class="text-body-secondary">
           <div class="desc d-flex justify-content-between align-items-center">
             <div class="desc-left">
               <div class="pin d-flex align-items-center justify-content-between">
                 <img src="./images/imgi_1_testimonial-2.jpg" class="d-block" alt="pic">
-                <a href="#">Morgan Freeman</a>
+                <a href="#" class="text-decoration-none text-black ms-2 fs-6">Morgan Freeman</a>
               </div>
             </div>
-            <div class="desc-right">
+            <div class="desc-right pt-3">
               <p><i class="fa-regular fa-clock"></i> 10 min</p>
             </div>
           </div>
@@ -551,22 +586,28 @@
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src="./images/imgi_10_post-2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">See more ideas about Travel</h5>
+    <div class="card h-100 shadow-sm">
+     
+        <a href="#"> <img src="./images/imgi_10_post-2.jpg" class="card-img-top" alt="..."></a>
+
+      <div class="card-body position-relative">
+        
+        <div class="cartopic w-25 py-1 bg-primary text-center border border-0 rounded-3 text-white position-absolute">WEB DESIGN</div>
+
+        <a href="#" class="text-decoration-none text-black"><h5 class="card-title">See more ideas about Travel</h5></a>
+
         <p class="card-text fs-6 text-secondary">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
       </div>
-      <div class="card-footer">
+      <div class="card-footer py-0">
         <small class="text-body-secondary">
           <div class="desc d-flex justify-content-between align-items-center">
             <div class="desc-left">
               <div class="pin d-flex align-items-center justify-content-between">
                 <img src="./images/imgi_1_testimonial-2.jpg" class="d-block" alt="pic">
-                <a href="#">Morgan Freeman</a>
+                <a href="#" class="text-decoration-none text-black ms-2 fs-6">Morgan Freeman</a>
               </div>
             </div>
-            <div class="desc-right">
+            <div class="desc-right pt-3">
               <p><i class="fa-regular fa-clock"></i> 10 min</p>
             </div>
           </div>
@@ -575,22 +616,28 @@
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src="./images/imgi_11_post-3.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">See more ideas about Travel</h5>
+    <div class="card h-100 shadow-sm">
+     
+        <a href="#"> <img src="./images/imgi_11_post-3.jpg" class="card-img-top" alt="..."></a>
+
+      <div class="card-body position-relative">
+        
+        <div class="cartopic w-25 py-1 bg-primary text-center border border-0 rounded-3 text-white position-absolute">WEB DESIGN</div>
+
+        <a href="#" class="text-decoration-none text-black"><h5 class="card-title">See more ideas about Travel</h5></a>
+
         <p class="card-text fs-6 text-secondary">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
       </div>
-      <div class="card-footer">
+      <div class="card-footer py-0">
         <small class="text-body-secondary">
           <div class="desc d-flex justify-content-between align-items-center">
             <div class="desc-left">
               <div class="pin d-flex align-items-center justify-content-between">
                 <img src="./images/imgi_1_testimonial-2.jpg" class="d-block" alt="pic">
-                <a href="#">Morgan Freeman</a>
+                <a href="#" class="text-decoration-none text-black ms-2 fs-6">Morgan Freeman</a>
               </div>
             </div>
-            <div class="desc-right">
+            <div class="desc-right pt-3">
               <p><i class="fa-regular fa-clock"></i> 10 min</p>
             </div>
           </div>
@@ -604,6 +651,45 @@
         </div>
     <!-- blog-end -->
 
+    <!-- contact -->
+     <div class="contact py-5" id="contact">
+      <div class="container bg-white shadow d-flex flex-sm-column flex-lg-row flex-lg-nowrap flex-sm-wrap p-5 gap-4 mt-5">
+        <div class="about-left w-50">
+          <h2 class="fs-2 about-me position-relative py-3 mb-5">Send Message Us</h2>
+          <form class="d-flex align-items-center flex-column">
+            <input class="w-100 border border-secondary-subtle mb-3 p-2" name="username" type="text" placeholder="Your Name">
+            <input class="w-100 border border-secondary-subtle mb-3 p-2" name="useremail" type="email" placeholder="Your Email">
+            <input class="w-100 border border-secondary-subtle mb-3 p-2" name="usersubject" type="text" placeholder="Subject">
+            <textarea name="usermessage" class="w-100 areat p-2 mb-4 border border-secondary-subtle text-secondary">Message</textarea>
+            <button type="button" class="fbtn btn btn-primary border rounded-pill fs-5 py-2 px-4">Send Message</button>
+          </form>
+        </div>
+        <div class="about-right w-50">
+          <h2 class="fs-2 about-me position-relative py-3 mb-5">Get in Touch</h2>
+          <p class="mb-4 lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?
+          </p>
+          <p class="text-secondary"> <i class="fa-solid text-primary fa-location-dot"></i> 329 WASHINGTON ST BOSTON, MA 02108</p>
+          <p class="text-secondary"> <i class="fa-solid text-primary fa-mobile"></i> (617) 557-0089</p>
+          <p class="text-secondary"> <i class="fa-solid text-primary fa-envelope"></i> contact@example.com</p>
+          <ul class="list-unstyled d-flex gap-3 fs-5 pt-2">
+            <li class="social px-2 pb-2 border border-3 border-primary rounded-circle" ><i class="fa-brands fa-facebook"></i></li>
+            <li class="social px-2 pb-2 border border-3 border-primary rounded-circle" ><i class="fa-brands fa-instagram"></i></li>
+            <li class="social px-2 pb-2 border border-3 border-primary rounded-circle" ><i class="fa-brands fa-twitter"></i></li>
+            <li class="social px-2 pb-2 border border-3 border-primary rounded-circle" ><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    <!-- contact-end -->
+       <a href="#home" id="goUpBtn" class="px-2 upbtn btn btn-primary text-white border border-0 rounded-circle"><i class="fa-solid fa-angle-up"></i></a>
+
+    <!-- footer -->
+     <div class="footer text-center bg-primary position-absolute end-0 start-0 pt-4 pb-2 text-white">
+      <p>© Copyright <span class="fw-bold">DevFolio</span>. All Rights Reserved <br> Designed by BootstrapMade</p>
+      </div>
+    <!-- footer-end -->
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed(".auto-type", {
@@ -612,6 +698,19 @@
         backSpeed: 80,
         loop: true,
       });
+
+
+
+          const goUpBtn = document.getElementById("goUpBtn");
+    const homeSection = document.getElementById("home");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > homeSection.offsetHeight) {
+        goUpBtn.style.display = "block";
+      } else {
+        goUpBtn.style.display = "none";
+      }
+    });
 
 
       
